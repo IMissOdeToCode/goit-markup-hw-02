@@ -1,69 +1,19 @@
-/*
-цвета
-
-logo color
-#2196F3
-#000000
-
-нормальный цвет навигации и h3 h2
-#212121
-цвет навигации при ховере как в лого
-
-цвет телефона и майла и p
-#757575
-при наведении как лого
-
-основной белый
-#FFFFFF
-
-цвет фона героя и футера
-#2F303A
-
-цвет мейла и телефона в футере
-rgba(255, 255, 255, 0.6)
-*/
-
-/* 
-шрифты 
-WebStudio nav и футер
-Raleway
-700
-
-остальная навигация и подписи фоток
-Roboto
-500
-
-Герой
-Roboto
-900
-
-Кнопка заказать услугу
-Roboto
-700
-
-h2 h3
-Roboto
-700
-
-p и должность на фотках и (адрес мыло телефон в футере)
-Roboto
-400
-
-.element {
-  color: rgb(255 255 255 / .65);
-  background-color: rgb(0 0 0 / .95);
-}
-
-*/
-/* body {
-	color: #757575;
-} */
-/* --------------------------------------- */
 :root {
 	--bc-blue: #2196f3;
 	--bc-black: #000000;
 	--bc-light-black: #212121;
 	--bc-gray: #757575;
+	--bc-white: #ffffff;
+	--bc-back: #2f303a;
+
+	--bc-semi-white: rgb(255 255 255 / 0.6);
+}
+
+body {
+	color: var(--bc-gray);
+	background-color: var(--bc-white);
+	font-family: Roboto, sans-serif;
+	font-style: normal;
 }
 
 .link {
@@ -74,21 +24,47 @@ Roboto
 	list-style: none;
 }
 
-/* navigation */
-
-.logo span,
-.list a:hover {
+.site-nav .link.current {
 	color: var(--bc-blue);
 }
 
+/* logo customize */
 .logo {
+	color: var(--bc-blue);
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+.logo.top {
 	color: var(--bc-black);
 }
-
-.site-nav a {
-	color: var(--bc-light-black);
+.logo.bot {
+	color: var(--bc-white);
 }
+/* navigation */
 
-.contact-nav a {
+.site-nav,
+.contact-nav {
+	color: var(--bc-light-black);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.site-nav .link {
+	color: var(--bc-black);
+}
+.contact-nav .link {
 	color: var(--bc-gray);
 }
+.link:hover,
+.link:focus {
+	color: var(--bc-blue);
+}
+/* hero */
+/* features */
+/* what_are_we_doing */
+/* our_team */
+/* footer */
