@@ -1,13 +1,14 @@
 :root {
+	/* bc - brand color */
 	--bc-blue: #2196f3;
 	--bc-black: #000000;
 	--bc-light-black: #212121;
 	--bc-gray: #757575;
 	--bc-white: #ffffff;
 	--bc-background: #2f303a;
+	--bc-light_backgroung: #f5f4fa;
 
 	--bc-semi-white: rgb(255 255 255 / 0.6);
-	/* #F5F4FA  not active button */
 }
 
 body {
@@ -135,5 +136,46 @@ text-align: center; */
 }
 
 /* what_are_we_doing */
+.section-title {
+	color: var(--bc-light-black);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	/* text-align: center; */
+	letter-spacing: 0.03em;
+}
+
 /* our_team */
+.card-title {
+	color: var(--bc-light-black);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	/* text-align: center; */
+	letter-spacing: 0.03em;
+}
+.card-descr {
+	font-size: 16px;
+	line-height: 1.19;
+	/* text-align: center; */
+	letter-spacing: 0.03em;
+}
+
 /* footer */
+.page-footer {
+	background-color: var(--bc-background);
+}
+
+.page-footer .link {
+	color: var(--bc-white);
+	font-style: normal;
+}
+
+.adr.link {
+	color: var(--bc-semi-white);
+}
+
+.page-footer .link:hover,
+.page-footer .link:focus {
+	color: var(--bc-blue);
+}
