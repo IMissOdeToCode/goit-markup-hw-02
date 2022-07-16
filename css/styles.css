@@ -55,6 +55,18 @@ text-align: center; */
 	background-color: var(--bc-white);
 	border-color: var(--bc-blue);
 }
+.hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
 
 /* logo customize */
 .logo {
@@ -108,6 +120,20 @@ text-align: center; */
 }
 
 /* features */
+.features-title {
+	color: var(--bc-black);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.features-text {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
 /* what_are_we_doing */
 /* our_team */
 /* footer */
