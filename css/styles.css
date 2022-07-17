@@ -58,7 +58,6 @@ body {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	letter-spacing: 0.03em;
 }
 .logo.top {
 	color: var(--bc-black);
@@ -131,13 +130,11 @@ body {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
-	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 .features-text {
 	font-size: 14px;
 	line-height: 1.71;
-	letter-spacing: 0.03em;
 }
 
 /* what_are_we_doing */
@@ -146,8 +143,7 @@ body {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
-	/* text-align: center; */
-	letter-spacing: 0.03em;
+	text-align: center;
 }
 
 /* our_team */
@@ -163,13 +159,11 @@ body {
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
-	letter-spacing: 0.03em;
 }
 .card-descr {
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
-	letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -225,5 +219,4 @@ body {
 	color: var(--bc-gray);
 	font-size: 16px;
 	line-height: 1.88;
-	letter-spacing: 0.03em;
 }
